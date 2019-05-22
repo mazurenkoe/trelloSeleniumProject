@@ -10,7 +10,7 @@ public class LogoutTest extends BrowserFactory {
     public void logout() {
         pages.loginPage.open();
         pages.loginPage.login();
-        pages.logoutPage.logout();
-        Assert.assertEquals(driver.getCurrentUrl(),  pages.logoutPage.urlLogOut);
+        pages.header.logout();
+        Assert.assertEquals(driver.getCurrentUrl(), pages.logoutPage.urlLogOut);
     }
 }
