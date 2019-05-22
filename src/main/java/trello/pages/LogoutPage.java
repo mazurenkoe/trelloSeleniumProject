@@ -1,16 +1,14 @@
-package trello;
+package trello.pages;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.security.PrivateKey;
 
 import static core.BrowserFactory.driver;
 
 
 public class LogoutPage {
 
-    protected static String urlLogOut = "https://trello.com/logged-out";
+    public static String urlLogOut = "https://trello.com/logged-out";
 
     public void logout() {
             new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(Header.userIcon));
