@@ -2,7 +2,6 @@ package trello.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static core.BrowserFactory.driver;
 import static core.BrowserFactory.wait;
