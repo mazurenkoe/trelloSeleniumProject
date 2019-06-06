@@ -19,7 +19,7 @@ public class LoginTest extends BrowserFactory {
     public void loginWrongPassword() {
         pages.loginPage.open();
         pages.loginPage.submitLoginForm(pages.loginPage.defaultEmail, "123456");
-        new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(pages.loginPage.loginFld));
+        wait.until(ExpectedConditions.elementToBeClickable(pages.loginPage.loginFld));
         Assert.assertEquals(driver.findElement(pages.loginPage.errorMessage).getText(), "Invalid password");
     }
 
@@ -27,7 +27,8 @@ public class LoginTest extends BrowserFactory {
     public void loginWrongEmail() {
         pages.loginPage.open();
         pages.loginPage.submitLoginForm("notexistedemail", "123456");
-        new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(pages.loginPage.loginFld));
-        Assert.assertEquals(driver.findElement(pages.loginPage.errorMessage).getText(), "There isn't an account for this username");
+        wait.until(ExpectedConditions.elementToBeClickable(pages.loginPage.loginFld));
+        Assert.assertEquals(driver.findElement(pages.loginPage.errorMessage)
+                .getText(), "There isn't an account for this username");
     }
 }
