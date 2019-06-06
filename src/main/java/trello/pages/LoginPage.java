@@ -20,19 +20,13 @@ public class LoginPage {
     }
 
     public void login(String email, String password) {
-        submitLoginForm(email, password);
-        wait.until(ExpectedConditions.urlToBe("https://trello.com/elena36945786/boards"));
-    }
-
-    public void login() {
-        login(defaultEmail, defaultPass);
-    }
-
-    public void submitLoginForm(String email, String password) {
         driver.findElement(emailFld).clear();
         driver.findElement(emailFld).sendKeys(email);
         driver.findElement(passwordFld).clear();
         driver.findElement(passwordFld).sendKeys(password);
-        driver.findElement(loginFld).click();
+        driver.findElement(loginFld).click();    }
+
+    public void login() {
+        login(defaultEmail, defaultPass);
     }
 }
