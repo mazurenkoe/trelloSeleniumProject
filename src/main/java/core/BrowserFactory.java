@@ -23,6 +23,6 @@ public class BrowserFactory {
 
     @AfterSuite
     public void tearDown() {
-        driver.quit();
+//        driver.quit();
     }
 }

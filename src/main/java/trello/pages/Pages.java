@@ -4,4 +4,5 @@ public class Pages {
     public Header header = new Header();
     public LoginPage loginPage = new LoginPage();
     public LogoutPage logoutPage = new LogoutPage();
+    public Boards boards = new Boards();
 }
