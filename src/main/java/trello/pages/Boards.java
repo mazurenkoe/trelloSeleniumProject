@@ -9,22 +9,24 @@ import java.util.Random;
 
 import static core.BrowserFactory.driver;
 import static core.BrowserFactory.wait;
+import static trello.pages.Header.homeIcon;
 
 public class Boards {
     public static By createBoardItem = new By.ByCssSelector(".mod-add");
     public static By publicBoardBanner = new By.ByCssSelector(".logged-in-public-board-banner");
+    public static By boardTitle = new By.ByCssSelector(".js-board-editing-target");
 
-    public String createBoard(String publicBoard) {
+    public String createBoard(String boardType) {
 
-        String boardName = generateString("qwertyuiop", 30);
+        String boardName = "newboard" + generateString("qwertyuiop", 30);
 
         driver.findElement(createBoardItem).click();
-        driver.findElement(By.cssSelector(".subtle-input")).sendKeys("newboard" + boardName);
+        driver.findElement(By.cssSelector(".subtle-input")).sendKeys(boardName);
 
-        if (publicBoard.equals("public")) {
-        driver.findElement(By.cssSelector(".subtle-chooser-trigger-dropdown-icon")).click();
-        driver.findElement(By.cssSelector(".js-tab-parent>ul li:nth-last-child(1)")).click();
-        driver.findElement(By.cssSelector("input.primary[type = 'submit']")).click();
+        if (boardType.equals("public")) {
+            driver.findElement(By.cssSelector(".subtle-chooser-trigger-dropdown-icon")).click();
+            driver.findElement(By.cssSelector(".js-tab-parent>ul li:nth-last-child(1)")).click();
+            driver.findElement(By.cssSelector("input.primary[type = 'submit']")).click();
         }
 
         driver.findElement(By.cssSelector("button.primary[type='submit']")).click();
@@ -32,16 +34,27 @@ public class Boards {
         return boardName;
     }
 
-        @NotNull
-        @Contract("_, _ -> new")
-        private static String generateString(String characters, int length)
-        {
-            final Random random = new Random();
-            char[] text = new char[length];
-            for (int i = 0; i < length; i++)
-            {
-                text[i] = characters.charAt(random.nextInt(characters.length()));
-            }
-            return new String(text);
+    public void deleteBoard(String boardName) {
+        driver.findElement(homeIcon).click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("div[title = '" + boardName + "']")));
+        driver.findElement(By.cssSelector("div[title = '" + boardName + "']")).click();
+        driver.findElement(By.cssSelector(".js-open-more")).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".js-close-board")));
+        driver.findElement(By.cssSelector(".js-close-board")).click();
+        driver.findElement(By.cssSelector(".js-confirm")).click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".delete-container")));
+        driver.findElement(By.cssSelector(".delete-container")).click();
+        driver.findElement(By.cssSelector(".js-confirm")).click();
+    }
+
+    @NotNull
+    @Contract("_, _ -> new")
+    private static String generateString(String characters, int length) {
+        final Random random = new Random();
+        char[] text = new char[length];
+        for (int i = 0; i < length; i++) {
+            text[i] = characters.charAt(random.nextInt(characters.length()));
         }
+        return new String(text);
+    }
 }

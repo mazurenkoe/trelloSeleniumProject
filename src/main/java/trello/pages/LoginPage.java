@@ -1,10 +1,7 @@
 package trello.pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-
 import static core.BrowserFactory.driver;
-import static core.BrowserFactory.wait;
 
 public class LoginPage {
 

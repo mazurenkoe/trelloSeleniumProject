@@ -15,6 +15,7 @@ public class BrowserFactory {
 
     @BeforeSuite
     public void setUp() {
+        System.setProperty("webdriver.chrome.driver", "C:\\webDrivers\\chromedriver.exe");
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, 10);
 
