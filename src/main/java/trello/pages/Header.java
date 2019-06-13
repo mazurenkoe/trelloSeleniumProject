@@ -12,7 +12,7 @@ public class Header {
 
     public static By userIcon = new By.ByCssSelector("button.js-open-header-member-menu");
     public static By logoutIcon = new By.ByCssSelector("[data-test-id='header-member-menu-logout']");
-    public static By homeIcon = new By.ByCssSelector("[aria-label='Back to Home']");
+    public static By homeIcon = new By.ByCssSelector("span[name='house']");
 
         public void logout() {
         wait.until(ExpectedConditions.presenceOfElementLocated(userIcon));

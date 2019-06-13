@@ -38,6 +38,8 @@ public class Boards {
         driver.findElement(homeIcon).click();
         wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("div[title = '" + boardName + "']")));
         driver.findElement(By.cssSelector("div[title = '" + boardName + "']")).click();
+        driver.findElement(By.cssSelector(".icon-back")).click();
+
         driver.findElement(By.cssSelector(".js-open-more")).click();
         wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".js-close-board")));
         driver.findElement(By.cssSelector(".js-close-board")).click();
@@ -45,6 +47,9 @@ public class Boards {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".delete-container")));
         driver.findElement(By.cssSelector(".delete-container")).click();
         driver.findElement(By.cssSelector(".js-confirm")).click();
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".js-reopen")));
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".big-message")));
+
     }
 
     @NotNull
