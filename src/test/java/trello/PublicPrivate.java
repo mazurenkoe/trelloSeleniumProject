@@ -26,18 +26,10 @@ public class PublicPrivate extends BrowserFactory {
         wait.until(ExpectedConditions.urlContains("/boards"));
     }
 
-    @AfterMethod
-    public void closeBrowser() {
-        driverAnonymUser.close();
-        WebDriver driver = new ChromeDriver();
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-    }
-
     @Test
     public void createPublicBoard() {
         pages.boards.createBoard("public");
         String currentUrl = driver.getCurrentUrl();
-        driver.close();
 
         driverAnonymUser.get(currentUrl);
         waitAnonymUser.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".board-header-btn-icon.icon-public")));
@@ -49,7 +41,6 @@ public class PublicPrivate extends BrowserFactory {
     public void createPrivateBoard() {
         pages.boards.createBoard("private");
         String currentUrl = driver.getCurrentUrl();
-        driver.close();
 
         driverAnonymUser.get(currentUrl);
         waitAnonymUser.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".big-message.quiet")));

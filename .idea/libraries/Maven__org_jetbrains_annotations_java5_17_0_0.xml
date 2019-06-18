@@ -3,7 +3,6 @@
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/annotations-java5/17.0.0/annotations-java5-17.0.0.jar!/" />
     </CLASSES>
-    <JAVADOC />
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/annotations-java5/17.0.0/annotations-java5-17.0.0-sources.jar!/" />
     </SOURCES>
