@@ -15,6 +15,11 @@ public class Boards {
     public static By createBoardItem = new By.ByCssSelector(".mod-add");
     public static By publicBoardBanner = new By.ByCssSelector(".logged-in-public-board-banner");
     public static By boardTitle = new By.ByCssSelector(".js-board-editing-target");
+    public static By createListItem = new By.ByCssSelector(".js-add-another-card");
+    public static By createListFld = new By.ByCssSelector(".list-card-composer-textarea");
+    public static By createListBtn = new By.ByCssSelector(".confirm[type = 'submit']");
+
+
 
     public String createBoard(String boardType) {
 
@@ -49,6 +54,16 @@ public class Boards {
         driver.findElement(By.cssSelector(".js-confirm")).click();
         wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".js-reopen")));
         wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".big-message")));
+
+    }
+
+    public void createLable(String lableName){
+        driver.findElement(createListItem).click();
+        wait.until(ExpectedConditions.presenceOfElementLocated(createListFld));
+
+        driver.findElement(createListFld).sendKeys(lableName);
+        driver.findElement(createListBtn).click();
+
 
     }
 
