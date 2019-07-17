@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c2e2648-6509-4cd3-9d3a-6acd52cbc239" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/trello/pages/Cards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/trello/LableDeleteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/trello/LableRenameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/production/HwTH2019/trello/pages/Boards.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/HwTH2019/trello/pages/Boards.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/HwTH2019/trello/pages/Pages.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/HwTH2019/trello/pages/Pages.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/test/HwTH2019/trello/LabelCreateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/HwTH2019/trello/LabelCreateTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/HwTH2019/trello/pages/Cards.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/HwTH2019/trello/pages/Cards.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/HwTH2019/trello/LableDeleteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/HwTH2019/trello/LableDeleteTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/trello/pages/Boards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trello/pages/Boards.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trello/pages/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trello/pages/Pages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trello/pages/Cards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trello/pages/Cards.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,10 +24,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/trello/PublicPrivate.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/trello/CreateBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="32" column="30" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="32" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/trello/LogoutTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="13" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,17 +47,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/trello/DeleteBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="24" selection-start-line="24" selection-end-line="25" selection-end-column="58" />
+            <state relative-caret-position="270">
+              <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-end-line="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/trello/LoginTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/trello/LableDeleteTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="5" selection-start-line="15" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="225">
+              <caret line="27" column="78" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,10 +66,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/trello/LogoutTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/trello/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="-1">
+              <caret line="20" column="5" selection-start-line="15" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/trello/LabelCreateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            <state relative-caret-position="240">
+              <caret line="25" column="29" selection-start-line="25" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,10 +90,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/trello/LableDeleteTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/trello/LableRenameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="149">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/Boards.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-end-line="69" />
+            <state relative-caret-position="225">
+              <caret line="83" column="63" selection-start-line="83" selection-start-column="63" selection-end-line="83" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,28 +114,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/Cards.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/LogoutPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/Pages.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/trello/BoardTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="74">
+              <caret line="15" column="16" selection-start-line="14" selection-start-column="22" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,9 +177,10 @@
         <option value="$PROJECT_DIR$/src/main/java/core/BrowserFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/trello/LabelCreateTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/pages/Pages.java" />
+        <option value="$PROJECT_DIR$/src/test/java/trello/LableDeleteTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/pages/Cards.java" />
         <option value="$PROJECT_DIR$/src/main/java/trello/pages/Boards.java" />
-        <option value="$PROJECT_DIR$/src/test/java/trello/LableDeleteTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/trello/LableRenameTest.java" />
       </list>
     </option>
   </component>
@@ -286,7 +290,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563326424476" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563328127104" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -304,24 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LableDeleteTest">
-    <configuration name="LabelCreateTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HwTH2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="trello.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="trello" />
-      <option name="MAIN_CLASS_NAME" value="trello.LabelCreateTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.LableRenameTest.renameLable">
     <configuration name="LabelCreateTest.createLable" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HwTH2019" />
       <extension name="coverage">
@@ -375,7 +362,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LableRenameTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HwTH2019" />
       <extension name="coverage">
         <pattern>
@@ -384,8 +371,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="trello" />
-      <option name="MAIN_CLASS_NAME" value="trello.LogoutTest" />
+      <option name="MAIN_CLASS_NAME" value="trello.LableRenameTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LableRenameTest.renameLable" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HwTH2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="trello" />
+      <option name="MAIN_CLASS_NAME" value="trello.LableRenameTest" />
+      <option name="METHOD_NAME" value="renameLable" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -394,11 +399,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LableRenameTest.renameLable" />
+        <item itemvalue="TestNG.LableRenameTest" />
         <item itemvalue="TestNG.LableDeleteTest" />
         <item itemvalue="TestNG.LableDeleteTest.deleteLable" />
         <item itemvalue="TestNG.LabelCreateTest.createLable" />
-        <item itemvalue="TestNG.LogoutTest" />
-        <item itemvalue="TestNG.LabelCreateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -419,27 +424,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LabelCreateTest_createLable - 2019.07.17 at 03h 13m 44s.xml">
-      <configuration name="LabelCreateTest.createLable" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LabelCreateTest_createLable - 2019.07.17 at 03h 33m 18s.xml">
-      <configuration name="LabelCreateTest.createLable" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LabelCreateTest_createLable - 2019.07.17 at 03h 34m 41s.xml">
-      <configuration name="LabelCreateTest.createLable" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LabelCreateTest_createLable - 2019.07.17 at 03h 35m 19s.xml">
-      <configuration name="LabelCreateTest.createLable" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LabelCreateTest_createLable - 2019.07.17 at 03h 36m 01s.xml">
-      <configuration name="LabelCreateTest.createLable" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LableDeleteTest - 2019.07.17 at 03h 51m 51s.xml">
-      <configuration name="LableDeleteTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LableDeleteTest_deleteLable - 2019.07.17 at 04h 01m 02s.xml">
-      <configuration name="LableDeleteTest.deleteLable" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LableDeleteTest - 2019.07.17 at 04h 06m 12s.xml">
       <configuration name="LableDeleteTest" configurationId="TestNG" />
     </history-entry>
@@ -448,6 +432,27 @@
     </history-entry>
     <history-entry file="LableDeleteTest - 2019.07.17 at 04h 16m 05s.xml">
       <configuration name="LableDeleteTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LableDeleteTest - 2019.07.17 at 04h 20m 36s.xml">
+      <configuration name="LableDeleteTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LableRenameTest_renameLable - 2019.07.17 at 04h 31m 27s.xml">
+      <configuration name="LableRenameTest.renameLable" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LableRenameTest - 2019.07.17 at 04h 41m 26s.xml">
+      <configuration name="LableRenameTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LableRenameTest_renameLable - 2019.07.17 at 04h 42m 15s.xml">
+      <configuration name="LableRenameTest.renameLable" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LableRenameTest_renameLable - 2019.07.17 at 04h 44m 57s.xml">
+      <configuration name="LableRenameTest.renameLable" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LableRenameTest_renameLable - 2019.07.17 at 04h 45m 59s.xml">
+      <configuration name="LableRenameTest.renameLable" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LableRenameTest - 2019.07.17 at 04h 47m 17s.xml">
+      <configuration name="LableRenameTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -465,7 +470,7 @@
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1295" height="772" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21377102" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21377102" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -473,8 +478,8 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498618" visible="true" weight="0.38139534" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.498618" visible="true" weight="0.38139534" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -638,35 +643,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="16" selection-start-line="15" selection-end-line="16" />
-          <folding>
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/LogoutPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/core/BrowserFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="26" column="18" selection-start-line="26" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/trello/CreateBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -680,47 +660,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/trello/DeleteBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" selection-start-line="24" selection-end-line="25" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/trello/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="5" selection-start-line="15" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/trello/LogoutTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/trello/BoardTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/trello/LabelCreateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -733,25 +676,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/Cards.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="120">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/Boards.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-end-line="69" />
+        <state relative-caret-position="225">
+          <caret line="83" column="63" selection-start-line="83" selection-start-column="63" selection-end-line="83" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/LogoutPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/trello/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="15" column="16" selection-start-line="14" selection-start-column="22" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/trello/LogoutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="13" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/trello/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="20" column="5" selection-start-line="15" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/trello/DeleteBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/trello/CreateBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="32" column="30" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/trello/LableDeleteTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="225">
+          <caret line="27" column="78" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/trello/LabelCreateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="29" selection-start-line="25" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/trello/LableRenameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

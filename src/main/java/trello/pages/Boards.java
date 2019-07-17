@@ -3,6 +3,7 @@ package trello.pages;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.Random;
@@ -64,13 +65,23 @@ public class Boards {
         driver.findElement(createListBtn).click();
     }
 
-    public void deleteLable(String lableName) {
+    public void openCard(String lableName){
         wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("a[href*='"+lableName+"']")));
         driver.findElement(By.cssSelector("a[href*='"+lableName+"']")).click();
+    }
+    public void deleteLable(String lableName) {
+        openCard(lableName);
         driver.findElement(archiveBtn).click();
         driver.findElement(deleteBtn).click();
         driver.findElement(confirmBtn).click();
+    }
 
+    public void renameLable(String lableName, String lableNewName) {
+        openCard(lableName);
+        driver.findElement(lableTitleFld).click();
+        driver.findElement(lableTitleFld).clear();
+        driver.findElement(lableTitleFld).sendKeys(lableNewName);
+        driver.findElement(lableTitleFld).sendKeys(Keys.ENTER);
     }
 
     @NotNull
