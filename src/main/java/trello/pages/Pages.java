@@ -5,4 +5,5 @@ public class Pages {
     public LoginPage loginPage = new LoginPage();
     public LogoutPage logoutPage = new LogoutPage();
     public Boards boards = new Boards();
+    public Cards cards = new Cards();
 }

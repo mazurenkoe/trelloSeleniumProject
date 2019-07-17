@@ -9,6 +9,7 @@ import java.util.Random;
 
 import static core.BrowserFactory.driver;
 import static core.BrowserFactory.wait;
+import static trello.pages.Cards.*;
 import static trello.pages.Header.homeIcon;
 
 public class Boards {
@@ -18,8 +19,6 @@ public class Boards {
     public static By createListItem = new By.ByCssSelector(".js-add-another-card");
     public static By createListFld = new By.ByCssSelector(".list-card-composer-textarea");
     public static By createListBtn = new By.ByCssSelector(".confirm[type = 'submit']");
-
-
 
     public String createBoard(String boardType) {
 
@@ -63,7 +62,14 @@ public class Boards {
 
         driver.findElement(createListFld).sendKeys(lableName);
         driver.findElement(createListBtn).click();
+    }
 
+    public void deleteLable(String lableName) {
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("a[href*='"+lableName+"']")));
+        driver.findElement(By.cssSelector("a[href*='"+lableName+"']")).click();
+        driver.findElement(archiveBtn).click();
+        driver.findElement(deleteBtn).click();
+        driver.findElement(confirmBtn).click();
 
     }
 
