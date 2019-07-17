@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c2e2648-6509-4cd3-9d3a-6acd52cbc239" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/trello/LabelCreateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/HwTH2019/core/BrowserFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/HwTH2019/core/BrowserFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/HwTH2019/trello/pages/Boards.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/HwTH2019/trello/pages/Boards.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/BrowserFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trello/pages/Boards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trello/pages/Boards.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/trello/LabelTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="1c2e2648-6509-4cd3-9d3a-6acd52cbc239" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/trello/LabelCreateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="420">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -257,7 +249,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563323748467" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563323898874" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -389,18 +381,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PublicPrivate - 2019.06.18 at 22h 25m 30s.xml">
-      <configuration name="PublicPrivate" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PublicPrivate - 2019.06.18 at 22h 25m 56s.xml">
-      <configuration name="PublicPrivate" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest - 2019.07.17 at 02h 20m 40s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LabelCreateTest_createLable - 2019.07.17 at 02h 57m 26s.xml">
-      <configuration name="LabelCreateTest.createLable" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LabelCreateTest_createLable - 2019.07.17 at 02h 58m 33s.xml">
       <configuration name="LabelCreateTest.createLable" configurationId="TestNG" />
     </history-entry>
@@ -417,6 +397,18 @@
       <configuration name="LabelCreateTest.createLable" configurationId="TestNG" />
     </history-entry>
     <history-entry file="LabelCreateTest_createLable - 2019.07.17 at 03h 13m 44s.xml">
+      <configuration name="LabelCreateTest.createLable" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LabelCreateTest_createLable - 2019.07.17 at 03h 33m 18s.xml">
+      <configuration name="LabelCreateTest.createLable" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LabelCreateTest_createLable - 2019.07.17 at 03h 34m 41s.xml">
+      <configuration name="LabelCreateTest.createLable" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LabelCreateTest_createLable - 2019.07.17 at 03h 35m 19s.xml">
+      <configuration name="LabelCreateTest.createLable" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LabelCreateTest_createLable - 2019.07.17 at 03h 36m 01s.xml">
       <configuration name="LabelCreateTest.createLable" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -440,10 +432,10 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32868218" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32868218" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.501382" side_tool="true" weight="0.1751938" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32868218" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.498618" weight="0.29457363" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -692,8 +684,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/trello/LabelCreateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
