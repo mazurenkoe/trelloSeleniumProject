@@ -14,7 +14,7 @@ public class LableRenameTest extends BrowserFactory {
 
     String lableName = new String("lenanewlable" + new Date().getTime());
     String lableRenamedName = new String("renamedlenanewlable" + new Date().getTime());
-    
+
     @BeforeMethod
     public void authorization() {
         pages.loginPage.open();
